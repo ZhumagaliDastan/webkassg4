@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Drag and Drop Game</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Match the Countries with their Capitals</h2>
+
+        <div class="game-container">
+            <div id="countries" class="column">
+                <div class="country" draggable="true">USA</div>
+                <div class="country" draggable="true">Canada</div>
+                <div class="country" draggable="true">France</div>
+                <div class="country" draggable="true">Germany</div>
+            </div>
+
+            <div id="capitals" class="column">
+                <div class="capital" data-capital="Washington, D.C."></div>
+                <div class="capital" data-capital="Ottawa"></div>
+                <div class="capital" data-capital="Paris"></div>
+                <div class="capital" data-capital="Berlin"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
